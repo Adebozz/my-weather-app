@@ -27,7 +27,7 @@ export default function Home() {
           value={location}
           onChange={(e) => setLocation(e.target.value)}
           placeholder="Enter location"
-          className="border p-3 rounded w-full "
+          className="border p-2 rounded w-full "
         />
         <button
           onClick={handleFetchWeather}
