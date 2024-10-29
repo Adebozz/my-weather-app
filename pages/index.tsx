@@ -34,7 +34,7 @@ export default function Home() {
           className="mt-4 bg-blue-500 text-white p-2 rounded"
           disabled={loading}
         >
-          {loading ? 'Loading...' : 'Get Weather'}
+          {loading ? 'Loading...' : 'Get Weather now'}
         </button>
         {weatherData && <WeatherCard data={weatherData} />}
       </div>
